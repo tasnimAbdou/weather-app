@@ -1,0 +1,22 @@
+{
+  "name": "wheatherapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "firebase": "^8.3.1",
+    "git": "^0.1.5",
+    "npm-git-install": "^0.3.0"
+  }
+}
