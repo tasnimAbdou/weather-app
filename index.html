@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+   <div class="skyContainer">
+    <div  id="sky" class=""></div>
+    <div  id="twinkling" class=""></div>
+    <div  id="clouds" class=""></div>
+    <div id="rain" class=""></div>
+
+   </div>
+    <div id="duration" class="">
+
+    <div class="container">
+            <div class="title">
+                <h1>Weather</h1>
+
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+            <div class="notification">
+
+            </div>
+            <div class="weathInfo">
+
+                <div class="weathIcon"><img src="icons/unknown.png"></div>
+                <div class="tempRange">
+                    <div class="maxtempValue"><p><span>c</span></p></div>
+                    <div class="mintempValue"><p><span></span></p></div>
+                </div>
+                <div class="tempValue">
+                    <p>-  ْ<span></span></p>
+                
+                </div>
+               
+                <div class="tempDescription">
+                    <p>-</p>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="detailsContainer">
+            
+            <div class="feelslike"><p></p></div>
+
+            <div class="pressure"><p><span>pressure:</span>-<span>Pa</span></p></div>
+            
+            <div class="humidity"><p></p></div>
+
+            
+            </div>
+        <div id="rain" class=""></div>
+
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+    <script src="script.js"></script>
+    
+
+</body>
+
+</html>
